@@ -4,7 +4,7 @@
   * 在模块内部**module**变量代表模块本身
   * **module.exports**属性代表模块对外接口
   * **require**规则
-    * **/**表示绝对路径，**./**表示相对于当前文件的路径
+    * /表示绝对路径，./表示相对于当前文件的路径
     * 支持js、json、node扩展名，不写依次尝试
     * 不写路径则认为是**build-in**模块或者各级node_modules内的第三方模块
   * **require**特性
@@ -13,10 +13,16 @@
 * global
   * CommonJs
   * Buffer、process、console
-  * 
 * process
   * argv
   * argv0
   * execArgv
 * timer
-* 
+* path
+  * __dirname、__filename总是返回文件的绝对路径
+  * process.cwd()总是返回执行node命令所在文件夹
+* buffer
+  * Buffer用于处理二进制数据流
+  * 实例类似整数数组，大小固定
+  * c++代码在V8堆外分配物理内存
+* event
