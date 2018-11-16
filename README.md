@@ -36,3 +36,7 @@
   * mkdir
   * rmdir
   * watch
+  * readstream
+  * writestream
+  * promisify
+  * async_await
