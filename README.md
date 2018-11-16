@@ -1,4 +1,4 @@
-# 环境
+# 知识点
 * CommonJS
   * 每个文件是一个模块，有自己的作用域
   * 在模块内部**module**变量代表模块本身
@@ -26,3 +26,13 @@
   * 实例类似整数数组，大小固定
   * c++代码在V8堆外分配物理内存
 * event
+* fs
+  * readFile
+  * writeFile
+  * stat
+  * rename
+  * unlink
+  * readdir
+  * mkdir
+  * rmdir
+  * watch

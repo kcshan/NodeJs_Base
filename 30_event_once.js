@@ -1,13 +1,13 @@
 const EventEmitter = require("events")
 
-class CustomEvent extends EventEmitter {}
+class CustomEvent extends EventEmitter{}
 
 const ce = new CustomEvent()
 
-ce.on("test",  () => {
-  console.log("this is a test")
+ce.once("test", () => {
+  console.log("test event")
 })
 
 setInterval(() => {
   ce.emit("test")
-}, 500)
+}, 500) 
