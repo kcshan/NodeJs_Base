@@ -40,3 +40,7 @@
   * writestream
   * promisify
   * async_await
+* 缓存
+  * Expires, Cache-Control
+  * If-Modified-Since/Last-Modified
+  * If-None-Match/ETag
